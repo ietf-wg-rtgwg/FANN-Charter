@@ -25,16 +25,15 @@ Mechanisms for detecting network conditions and the specific actions taken in re
 The WG will produce documents to address the following points:
 
 - Requirements and Gap Analysis
-    * Provide the definition of "fast network notification".
-    * Identify use cases where fast network notification can significantly improve the effectiveness and efficiency of traffic management mechanisms.
-    * For each use case, describe the information requirements, the nodes that collect and consume the information, the notification time scale, and the actions that can be performed. 
+    * Identify use cases where fast network notification can significantly improve the effectiveness and efficiency of traffic management mechanisms, and
+    * Describe the requirements of information needed, the nodes that collect and consume the information, the notification time scale, and the actions that can be performed.
     * Evaluate the applicability and extensibility of existing IETF protocols for fast network notification, and identify gaps that need to be addressed through protocol extensions or new protocols.
     
-- Define an Information Model for Fast Network Notifications
+- An Information Model for Fast Network Notifications
     * Develop an information model for standardized representation of real-time network condition data to support efficient encoding, dissemination, and responsive actions.
     * Define the requirements of the data needed for functions/actions including, but not limited to, traffic engineering, load balancing, flow control, congestion control, and protection switching.
     
-- Develop Fast Network Notification Protocols and the Related Mechanisms
+- Fast Network Notification Protocols and the Related Mechanisms
     * Specify the protocol extensions or new protocols needed for fast network notification. Protocol extensions shall only be made in cooperation with the working group that owns the specific protocol. Different protocols may be needed to meet the requirements in different network scenarios. The WG may decide to develop them in a particular order.
     * Specify the protocol mechanisms for the discovery and selection of the receivers of the fast notification. 
 
@@ -49,7 +48,7 @@ The WG will collaborate with:
 - the RTGWG to identify information needed to perform Fast Reroute (FRR) and other protection mechanisms.
 - the IPPM WG on the technologies and protocols which determine what data can be acquired for the notification.
 - the IDR and LSR WGs to understand whether there are optimizations in status information distribution that can benefit BGP and the IGPs.
-- other WGs for work on extensions to existing protocols if changes are needed for detection or data dissemination.
+- other WGs for working on extensions to existing protocols if changes are needed for detection or data dissemination.
 
 
 ## Milestones

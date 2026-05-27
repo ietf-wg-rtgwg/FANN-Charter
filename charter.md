@@ -8,7 +8,7 @@ The Fast Network Notification (FANN) Working Group is chartered to investigate t
 ## Scope and Work Plan
 The WG will begin by documenting the problem space, requirements, and gaps in existing mechanisms, including technologies defined both within and outside the IETF. The WG will then define a framework describing how network notifications are generated, and consumed, including integration with existing technologies.
 
-After the WG has completed their work (i.e., after WGLC) on requirements and this framework, the WG will work on the development of a solution to signal adverse network conditions to remote nodes. These mechanisms may include discovery and registration procedures to identify interested remote nodes. The WG will reuse existing protocols where appropriate and define new protocols or mechanisms when necessary.
+After the WG has completed their work (i.e., after WGLC) on requirements and this framework, the WG will work on the development of a solution to signal adverse network conditions (and their recovery) to remote nodes. These mechanisms may include discovery and registration procedures to identify interested remote nodes. The WG will reuse existing protocols where appropriate and define new protocols or mechanisms when necessary.
 
 The notifications are expected to be event-driven and primarily optimized for fast generation and consumption in the forwarding plane (ideally in hardware) to meet the responsiveness requirements. As a secondary objective, the solution may also support consumption by management systems and routing protocols, provided routing stability is preserved.
 

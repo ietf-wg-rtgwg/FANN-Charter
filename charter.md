@@ -20,7 +20,7 @@ The WG will seek publication of protocol specifications (i.e., Proposed Standard
 
 The WG will also deliver an applicability statement document that provides operational guidance for deployment of the solution in the target deployments and YANG models for management of the solution.
 
-The solution is intended for deployment within private networks under single administrative control. The WG will define mechanisms to identify notification domains and to ensure isolation of notifications within those domains. Appropriate security mechanisms and considerations will be documented as part of the WG deliverables.
+The solution is intended for deployment within networks under single administrative control. The WG will define mechanisms to identify notification domains and to ensure isolation of notifications within those domains. Appropriate security mechanisms and considerations will be documented as part of the WG deliverables.
 
 ## Work Items
 The WG is expected to produce the following deliverables:
